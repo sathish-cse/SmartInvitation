@@ -38,6 +38,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.ho9586.vivaha.FriendListActivity"
+            android:label="Friend List"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.ho9586.vivaha.ChatActivity"
+            android:label="Chat"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.ho9586.vivaha.LoginActivity"
+            android:theme="@style/AppTheme2">
+
+        </activity>
+        <activity android:name="com.example.ho9586.vivaha.RegisterActivity"
+            android:theme="@style/AppTheme2"/>
     </application>
 
 </manifest>

@@ -89,7 +89,7 @@ public class IntroSlider extends Activity implements ViewPager.OnPageChangeListe
                 break;
 
             case R.id.btn_finish:
-                Intent intent = new Intent(IntroSlider.this,MainActivity.class);
+                Intent intent = new Intent(IntroSlider.this,LoginActivity.class);
                 startActivity(intent);
                 finish();
                 break;

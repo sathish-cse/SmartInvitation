@@ -10,7 +10,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.example.ho9586.demo"
+        applicationId "com.example.ho9586.vivaha"
         minSdkVersion 17
         targetSdkVersion 25
         versionCode 1

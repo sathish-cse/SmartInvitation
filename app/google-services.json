@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1302923230",
+    "firebase_url": "https://api-project-1302923230.firebaseio.com",
+    "project_id": "api-project-1302923230",
+    "storage_bucket": "api-project-1302923230.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1302923230:android:142d8f97915c01b2",
+        "android_client_info": {
+          "package_name": "com.example.ho9586.vivaha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1302923230-ojque0rf7n2apo93p82e6pmbc8crt84p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf2mgAUHsyd6Y_LWYvn9SB5kPXb1q8ezU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
