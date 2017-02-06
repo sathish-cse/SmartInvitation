@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"> <!-- to show what the parent is -->
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/profile_image2"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                app:border_color="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:src="@drawable/centerimage" />
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wedding"
+                    android:textColor="#FF3D62"/>
+
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="06.06.2017 at 5 AM"
+                    android:textColor="#FF3D62"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:id="@+id/weddinglocation"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="80dp"
+                android:src="@drawable/location_event"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1" >
+
+        <customfonts.MyTextView1
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_height="match_parent"
+            android:text="Veeramathi amman temple,cheyur"
+            android:textColor="#3D70E8"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FF3D62"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.05"/>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/profile_image"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                app:border_color="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:src="@drawable/centerimage" />
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="Reception"
+                    android:textColor="#FF3D62"/>
+
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="06.06.2017 at 6 PM"
+                    android:textColor="#FF3D62"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:id="@+id/receptionlocation"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="80dp"
+                android:src="@drawable/location_event"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1" >
+
+
+        <customfonts.MyTextView1
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_height="match_parent"
+            android:text="Vazhthu Muthali Kootam Mahal,cheyur"
+            android:textColor="#3D70E8"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FF3D62"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.05"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/avatar3"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bus" />
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Bus Information"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="#3D70E8"/>
+    </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

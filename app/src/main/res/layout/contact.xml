@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/form"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_height="match_parent">
+
+        <customfonts.MyButton
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="18dp"
+            android:text="Origin Techies"
+            android:background="#FF3D62"
+            android:textColor="#fcfcfc"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N.Sathish Kumar"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sathishsachincse@gmail.com"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18dp"/>
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8015352654"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

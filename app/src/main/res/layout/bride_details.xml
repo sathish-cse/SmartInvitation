@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/form"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <customfonts.MyButton
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="18dp"
+                android:text="BRIDE DETAILS"
+                android:background="#ec5050"
+                android:textColor="#fcfcfc"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anjelina Jolie"
+                android:textStyle="bold"
+                android:textColor="#ec5050"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Light House,"
+                android:textStyle="bold"
+                android:textColor="#3D70E8"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karur"
+                android:textStyle="bold"
+                android:textColor="#3D70E8"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROFILE"
+                android:textStyle="bold"
+                android:textColor="#ec5050"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age - 25"
+                android:textColor="#3D70E8"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BE (CSE)"
+                android:textColor="#3D70E8"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developer at CTS"
+                android:textColor="#3D70E8"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangalore"
+                android:textColor="#3D70E8"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARENTS"
+                android:textStyle="bold"
+                android:textColor="#ec5050"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Stuart Clark"
+                android:textColor="#3D70E8"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Catherine"
+                android:textColor="#3D70E8"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

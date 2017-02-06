@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/form"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <customfonts.MyButton
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="18dp"
+            android:text="BUS INFORMATION"
+            android:background="#ec5050"
+            android:textColor="#fcfcfc"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUS ROUTE"
+            android:textStyle="bold"
+            android:textColor="#ec5050"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kavunthampadi to Aappakkudal via,"
+            android:textStyle="bold"
+            android:textColor="#3D70E8"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kavunthampadi Pudhur."
+            android:textStyle="bold"
+            android:textColor="#3D70E8"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUS NUMBER"
+            android:textStyle="bold"
+            android:textColor="#ec5050"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K2"
+            android:textColor="#3D70E8"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="15dp"/>
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K3"
+            android:textColor="#3D70E8"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K4"
+            android:textColor="#3D70E8"
+            android:gravity="center"
+            android:textSize="15dp"/>
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K5"
+            android:textColor="#3D70E8"
+            android:gravity="center"
+            android:textSize="15dp"/>
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K6"
+            android:textColor="#3D70E8"
+            android:gravity="center"
+            android:textSize="15dp"/>
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K8"
+            android:textColor="#3D70E8"
+            android:gravity="center"
+            android:textSize="15dp"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

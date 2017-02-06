@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/heartbg3"
+    tools:context="com.example.ho9586.vivaha.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    
+    <customfonts.MyTextView1
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#FF3D62"
+        android:layout_above="@+id/circle_layout"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Wedding Invitation"/>
+
+
+    <com.example.ho9586.vivaha.CircleLayout
+        android:id="@+id/circle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+        <include layout="@layout/menu_items" />
+    </com.example.ho9586.vivaha.CircleLayout>
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/centerimage"
+        app:civ_border_width="5dp"
+        app:civ_border_color="#FF3D62"/>
+
+  <!---  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fff">
+
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tamiltxt"
+        android:text="அன்பும் அறனும் உடைத்தாயின் இல்வாழ்க்கை \n பண்பும் பயனும் அது."
+        android:gravity="center"
+        android:textSize="16dp"
+        android:paddingBottom="10dp"
+        android:textColor="#fcfcfc" />
+
+
+</RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <customfonts.MyTextView1
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fcfcfc"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:id="@+id/time"
+                android:text="Sunday 6th June"/>
+            <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#FF3D62"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtTimerDay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_TimerDay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="DAYS"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <TextView
+                        android:id="@+id/txtTimerHour"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_TimerHour"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="HOURS"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <TextView
+                        android:id="@+id/txtTimerMinute"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_TimerMinute"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="MINUTES"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <TextView
+                        android:id="@+id/txtTimerSecond"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#f4ea9d"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_TimerSecond"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="SECONDS"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
